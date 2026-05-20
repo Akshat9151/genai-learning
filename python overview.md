@@ -1,5 +1,4 @@
 Python — Complete Overview for AI/ML 🐍
-Tera base strong karte hain — har topic ka practical overview!
 
 1️⃣ Variables & Data Types
 python# Variables — data store karna
@@ -418,30 +417,3 @@ pip install -r requirements.txt
 deactivate
 AI mein use: Har AI project ka apna environment hona chahiye!
 
-🔟 Git & GitHub
-bash# ── Setup ──
-git config --global user.name "Akshat Jain"
-git config --global user.email "bakshiakshat05@gmail.com"
-
-# ── Naya project ──
-git init                        # start tracking
-git add .                       # sab files stage karo
-git commit -m "First commit"    # save snapshot
-
-# ── GitHub pe push ──
-git remote add origin https://github.com/Akshat9151/project
-git push -u origin main
-
-# ── Roz ka workflow ──
-git status                      # kya badla?
-git add filename.py             # specific file
-git add .                       # sab files
-git commit -m "Added RAG pipeline"
-git push                        # GitHub pe bhejo
-
-# ── .gitignore — important! ──
-# .gitignore file mein likho:
-# .env          (API keys mat bhejo!)
-# __pycache__/
-# myenv/
-# *.pyc
